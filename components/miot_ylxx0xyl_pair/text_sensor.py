@@ -11,7 +11,7 @@ from esphome.components import miot, miot_client, text_sensor, ble_client
 CODEOWNERS = ["@dentra"]
 AUTO_LOAD = ["miot", "miot_client", "text_sensor", "ble_client"]
 
-ICON_VERSION = "cellphone-arrow-down"
+ICON_VERSION = "mdi:cellphone-arrow-down"
 
 miot_ylxx0xyl_ns = cg.esphome_ns.namespace("miot_ylxx0xyl")
 MiotYLxx0xYLPair = miot_ylxx0xyl_ns.class_(
